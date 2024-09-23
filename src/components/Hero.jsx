@@ -24,15 +24,15 @@ const Hero = () => {
     useGSAP(() => {
         gsap.to("#hero", {
             opacity: 1,
-            delay: 0.75,
-            duration: 1,
+            delay: 1,
+            duration: 0.75,
         });
 
         gsap.to("#cta", {
             y: "-60",
             opacity: 1,
-            delay: 0.75,
-            duration: 1,
+            delay: 1,
+            duration: 0.75,
         });
     }, {});
 
